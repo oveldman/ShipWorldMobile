@@ -9,14 +9,11 @@ import SwiftUI
 
 struct MainView: View {
     var body: some View {
-        NavigationView() {
-            ZStack{
-                MyBackgroundImage(imageName: "HeavyCargo")
-                VStack {
-                    MyButton(destination: AnyView(NewGameView()), labelName: "New Game")
-                    MyButton(destination: AnyView(NewGameView()), labelName: "Load Game")
-                    MyButton(destination: AnyView(NewGameView()), labelName: "Settings")
-                }
+        MyLayout(backgroundImage: "HeavyCargo") {
+            VStack {
+                MyButton(destination: AnyView(NewGameView()), labelName: "New Game")
+                MyButton(destination: AnyView(NewGameView()), labelName: "Load Game")
+                MyButton(destination: AnyView(NewGameView()), labelName: "Settings")
             }
         }
     }
