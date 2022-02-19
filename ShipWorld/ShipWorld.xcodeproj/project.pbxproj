@@ -1,0 +1,611 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		229111A927C162BD007C44C4 /* ShipWorldApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229111A827C162BD007C44C4 /* ShipWorldApp.swift */; };
+		229111AB27C162BD007C44C4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229111AA27C162BD007C44C4 /* ContentView.swift */; };
+		229111AD27C162BE007C44C4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 229111AC27C162BE007C44C4 /* Assets.xcassets */; };
+		229111B027C162BE007C44C4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 229111AF27C162BE007C44C4 /* Preview Assets.xcassets */; };
+		229111B227C162BE007C44C4 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229111B127C162BE007C44C4 /* Persistence.swift */; };
+		229111B527C162BE007C44C4 /* ShipWorld.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 229111B327C162BE007C44C4 /* ShipWorld.xcdatamodeld */; };
+		229111BF27C162BE007C44C4 /* ShipWorldTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229111BE27C162BE007C44C4 /* ShipWorldTests.swift */; };
+		229111C927C162BE007C44C4 /* ShipWorldUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229111C827C162BE007C44C4 /* ShipWorldUITests.swift */; };
+		229111CB27C162BE007C44C4 /* ShipWorldUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229111CA27C162BE007C44C4 /* ShipWorldUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		229111BB27C162BE007C44C4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2291119D27C162BD007C44C4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 229111A427C162BD007C44C4;
+			remoteInfo = ShipWorld;
+		};
+		229111C527C162BE007C44C4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2291119D27C162BD007C44C4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 229111A427C162BD007C44C4;
+			remoteInfo = ShipWorld;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		229111A527C162BD007C44C4 /* ShipWorld.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShipWorld.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		229111A827C162BD007C44C4 /* ShipWorldApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShipWorldApp.swift; sourceTree = "<group>"; };
+		229111AA27C162BD007C44C4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		229111AC27C162BE007C44C4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		229111AF27C162BE007C44C4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		229111B127C162BE007C44C4 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		229111B427C162BE007C44C4 /* ShipWorld.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ShipWorld.xcdatamodel; sourceTree = "<group>"; };
+		229111BA27C162BE007C44C4 /* ShipWorldTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShipWorldTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		229111BE27C162BE007C44C4 /* ShipWorldTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShipWorldTests.swift; sourceTree = "<group>"; };
+		229111C427C162BE007C44C4 /* ShipWorldUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShipWorldUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		229111C827C162BE007C44C4 /* ShipWorldUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShipWorldUITests.swift; sourceTree = "<group>"; };
+		229111CA27C162BE007C44C4 /* ShipWorldUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShipWorldUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		229111A227C162BD007C44C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		229111B727C162BE007C44C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		229111C127C162BE007C44C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2291119C27C162BD007C44C4 = {
+			isa = PBXGroup;
+			children = (
+				229111A727C162BD007C44C4 /* ShipWorld */,
+				229111BD27C162BE007C44C4 /* ShipWorldTests */,
+				229111C727C162BE007C44C4 /* ShipWorldUITests */,
+				229111A627C162BD007C44C4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		229111A627C162BD007C44C4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				229111A527C162BD007C44C4 /* ShipWorld.app */,
+				229111BA27C162BE007C44C4 /* ShipWorldTests.xctest */,
+				229111C427C162BE007C44C4 /* ShipWorldUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		229111A727C162BD007C44C4 /* ShipWorld */ = {
+			isa = PBXGroup;
+			children = (
+				229111A827C162BD007C44C4 /* ShipWorldApp.swift */,
+				229111AA27C162BD007C44C4 /* ContentView.swift */,
+				229111AC27C162BE007C44C4 /* Assets.xcassets */,
+				229111B127C162BE007C44C4 /* Persistence.swift */,
+				229111B327C162BE007C44C4 /* ShipWorld.xcdatamodeld */,
+				229111AE27C162BE007C44C4 /* Preview Content */,
+			);
+			path = ShipWorld;
+			sourceTree = "<group>";
+		};
+		229111AE27C162BE007C44C4 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				229111AF27C162BE007C44C4 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		229111BD27C162BE007C44C4 /* ShipWorldTests */ = {
+			isa = PBXGroup;
+			children = (
+				229111BE27C162BE007C44C4 /* ShipWorldTests.swift */,
+			);
+			path = ShipWorldTests;
+			sourceTree = "<group>";
+		};
+		229111C727C162BE007C44C4 /* ShipWorldUITests */ = {
+			isa = PBXGroup;
+			children = (
+				229111C827C162BE007C44C4 /* ShipWorldUITests.swift */,
+				229111CA27C162BE007C44C4 /* ShipWorldUITestsLaunchTests.swift */,
+			);
+			path = ShipWorldUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		229111A427C162BD007C44C4 /* ShipWorld */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 229111CE27C162BE007C44C4 /* Build configuration list for PBXNativeTarget "ShipWorld" */;
+			buildPhases = (
+				229111A127C162BD007C44C4 /* Sources */,
+				229111A227C162BD007C44C4 /* Frameworks */,
+				229111A327C162BD007C44C4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ShipWorld;
+			productName = ShipWorld;
+			productReference = 229111A527C162BD007C44C4 /* ShipWorld.app */;
+			productType = "com.apple.product-type.application";
+		};
+		229111B927C162BE007C44C4 /* ShipWorldTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 229111D127C162BE007C44C4 /* Build configuration list for PBXNativeTarget "ShipWorldTests" */;
+			buildPhases = (
+				229111B627C162BE007C44C4 /* Sources */,
+				229111B727C162BE007C44C4 /* Frameworks */,
+				229111B827C162BE007C44C4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				229111BC27C162BE007C44C4 /* PBXTargetDependency */,
+			);
+			name = ShipWorldTests;
+			productName = ShipWorldTests;
+			productReference = 229111BA27C162BE007C44C4 /* ShipWorldTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		229111C327C162BE007C44C4 /* ShipWorldUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 229111D427C162BE007C44C4 /* Build configuration list for PBXNativeTarget "ShipWorldUITests" */;
+			buildPhases = (
+				229111C027C162BE007C44C4 /* Sources */,
+				229111C127C162BE007C44C4 /* Frameworks */,
+				229111C227C162BE007C44C4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				229111C627C162BE007C44C4 /* PBXTargetDependency */,
+			);
+			name = ShipWorldUITests;
+			productName = ShipWorldUITests;
+			productReference = 229111C427C162BE007C44C4 /* ShipWorldUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2291119D27C162BD007C44C4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					229111A427C162BD007C44C4 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					229111B927C162BE007C44C4 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 229111A427C162BD007C44C4;
+					};
+					229111C327C162BE007C44C4 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 229111A427C162BD007C44C4;
+					};
+				};
+			};
+			buildConfigurationList = 229111A027C162BD007C44C4 /* Build configuration list for PBXProject "ShipWorld" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2291119C27C162BD007C44C4;
+			productRefGroup = 229111A627C162BD007C44C4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				229111A427C162BD007C44C4 /* ShipWorld */,
+				229111B927C162BE007C44C4 /* ShipWorldTests */,
+				229111C327C162BE007C44C4 /* ShipWorldUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		229111A327C162BD007C44C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				229111B027C162BE007C44C4 /* Preview Assets.xcassets in Resources */,
+				229111AD27C162BE007C44C4 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		229111B827C162BE007C44C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		229111C227C162BE007C44C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		229111A127C162BD007C44C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				229111B227C162BE007C44C4 /* Persistence.swift in Sources */,
+				229111AB27C162BD007C44C4 /* ContentView.swift in Sources */,
+				229111B527C162BE007C44C4 /* ShipWorld.xcdatamodeld in Sources */,
+				229111A927C162BD007C44C4 /* ShipWorldApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		229111B627C162BE007C44C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				229111BF27C162BE007C44C4 /* ShipWorldTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		229111C027C162BE007C44C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				229111C927C162BE007C44C4 /* ShipWorldUITests.swift in Sources */,
+				229111CB27C162BE007C44C4 /* ShipWorldUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		229111BC27C162BE007C44C4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 229111A427C162BD007C44C4 /* ShipWorld */;
+			targetProxy = 229111BB27C162BE007C44C4 /* PBXContainerItemProxy */;
+		};
+		229111C627C162BE007C44C4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 229111A427C162BD007C44C4 /* ShipWorld */;
+			targetProxy = 229111C527C162BE007C44C4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		229111CC27C162BE007C44C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		229111CD27C162BE007C44C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		229111CF27C162BE007C44C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ShipWorld/Preview Content\"";
+				DEVELOPMENT_TEAM = RN8XWCQ3UH;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nl.MadWorld.ShipWorld;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		229111D027C162BE007C44C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ShipWorld/Preview Content\"";
+				DEVELOPMENT_TEAM = RN8XWCQ3UH;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nl.MadWorld.ShipWorld;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		229111D227C162BE007C44C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RN8XWCQ3UH;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nl.MadWorld.ShipWorldTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ShipWorld.app/ShipWorld";
+			};
+			name = Debug;
+		};
+		229111D327C162BE007C44C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RN8XWCQ3UH;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nl.MadWorld.ShipWorldTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ShipWorld.app/ShipWorld";
+			};
+			name = Release;
+		};
+		229111D527C162BE007C44C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RN8XWCQ3UH;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nl.MadWorld.ShipWorldUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ShipWorld;
+			};
+			name = Debug;
+		};
+		229111D627C162BE007C44C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RN8XWCQ3UH;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nl.MadWorld.ShipWorldUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ShipWorld;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		229111A027C162BD007C44C4 /* Build configuration list for PBXProject "ShipWorld" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				229111CC27C162BE007C44C4 /* Debug */,
+				229111CD27C162BE007C44C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		229111CE27C162BE007C44C4 /* Build configuration list for PBXNativeTarget "ShipWorld" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				229111CF27C162BE007C44C4 /* Debug */,
+				229111D027C162BE007C44C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		229111D127C162BE007C44C4 /* Build configuration list for PBXNativeTarget "ShipWorldTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				229111D227C162BE007C44C4 /* Debug */,
+				229111D327C162BE007C44C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		229111D427C162BE007C44C4 /* Build configuration list for PBXNativeTarget "ShipWorldUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				229111D527C162BE007C44C4 /* Debug */,
+				229111D627C162BE007C44C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		229111B327C162BE007C44C4 /* ShipWorld.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				229111B427C162BE007C44C4 /* ShipWorld.xcdatamodel */,
+			);
+			currentVersion = 229111B427C162BE007C44C4 /* ShipWorld.xcdatamodel */;
+			path = ShipWorld.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 2291119D27C162BD007C44C4 /* Project object */;
+}
